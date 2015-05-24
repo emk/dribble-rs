@@ -3,6 +3,14 @@ name = "dribble"
 version = "0.1.0"
 authors = ["Eric Kidd <git@randomhacks.net>"]
 
+description = "Stress-test implementations of Read and Write with tiny chunks of data"
+
+homepage = "https://github.com/emk/dribble-rs"
+repository = "https://github.com/emk/dribble-rs"
+readme = "README.md"
+keywords = ["testing", "io"]
+license = "MIT"
+
 [features]
 # Allow access to unstable features when being built with a nightly compiler,
 # to keep travis-cargo happy and enable access to benchmarks if we want them.

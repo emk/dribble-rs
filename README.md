@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/emk/dribble-rs.svg?branch=master)](https://travis-ci.org/emk/dribble-rs)
+[![Build Status](https://travis-ci.org/emk/dribble-rs.svg?branch=master)](https://travis-ci.org/emk/dribble-rs) [![Latest version](https://img.shields.io/crates/v/dribble.svg)](https://crates.io/crates/dribble) [![License](https://img.shields.io/crates/l/dribble.svg)](https://crates.io/crates/dribble)
+
+[Documentation](http://emk.github.io/dribble-rs/dribble/index.html)
 
 The `dribble` library helps you test implementations of the Rust traits
 `std::io::Read` and `std::io::Write` by passing data to them in small,
