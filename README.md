@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/emk/dribble-rs.svg?branch=master)](https://travis-ci.org/emk/dribble-rs)
+
 The `dribble` library helps you test implementations of the Rust traits
 `std::io::Read` and `std::io::Write` by passing data to them in small,
 random-sized chunks.  This allows you to stress-test the code you run near
