@@ -3,5 +3,10 @@ name = "dribble"
 version = "0.1.0"
 authors = ["Eric Kidd <git@randomhacks.net>"]
 
+[features]
+# Allow access to unstable features when being built with a nightly compiler,
+# to keep travis-cargo happy and enable access to benchmarks if we want them.
+unstable = []
+
 [dependencies]
 rand = "*"
