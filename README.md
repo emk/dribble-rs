@@ -7,8 +7,17 @@ The `dribble` library helps you test implementations of the Rust traits
 random-sized chunks.  This allows you to stress-test the code you run near
 buffer boundaries.
 
+Place the following in your `Cargo.toml` file:
+
+```
+[dev-dependencies]
+dribble = "*"
+```
+
+And place the following in your top-level library file:
+
 ```rust
-extern crate dribble;
+#[cfg(test)] extern crate dribble;
 ```
 
 ### Reading data in tiny chunks

@@ -1,12 +1,13 @@
 [package]
 name = "dribble"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Eric Kidd <git@randomhacks.net>"]
 
 description = "Stress-test implementations of Read and Write with tiny chunks of data"
 
 homepage = "https://github.com/emk/dribble-rs"
 repository = "https://github.com/emk/dribble-rs"
+documentation = "http://emk.github.io/dribble-rs/dribble/index.html"
 readme = "README.md"
 keywords = ["testing", "io"]
 license = "MIT"
