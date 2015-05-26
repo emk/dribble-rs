@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["DribbleReader","Wrap an implementation of `Read`, and return bytes in small, random-sized chunks when `read` is called."],["DribbleWriter","Wrap an implementation of `Write`, and pass through bytes in small, random-sized chunks when `write` is called."]]});
